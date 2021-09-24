@@ -175,7 +175,8 @@ img {
 
 .col-wide{
     grid-column: 1 / -1;
-    text-align: center;
+    text-align: justify;
+    
 
 }
 
@@ -200,6 +201,7 @@ p{
     line-height: 1.6;
     letter-spacing: -0.005em;
     color: rgba(0,0,0,.7);
+    text-align: justify;
 
 }
 
