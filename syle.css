@@ -136,10 +136,21 @@ img {
 
 }
 
-.sidenav li a:hover{
-    background: #29004e;
 
+
+.kaisa:hover{
+background: #29004e;
 }
+
+.jhin:hover{
+    background: #420202;
+    }
+
+.talon:hover{
+    background:#060147;
+}
+    
+
 
 @media (max-width:760px) {
     .sidenav {
@@ -181,6 +192,11 @@ img {
     text-align: justify;
     
 
+}
+
+.sobre{
+    text-align: center;
+    grid-column: 1 / -1;
 }
 
 .imagem-1{
@@ -297,13 +313,16 @@ p{
     font-size: 1.125em;
     padding: 15px;
     border-bottom: 2px solid #B07DFB;
-
 }
 
 .atributos li +li{
     border-top: 2px solid #B07DFB;
 }
-
+.atributos{
+    margin-top: 20px;
+    padding-left: 10px;
+    max-height: 390px;
+}
 /*ANUNCIOS*/
 .anuncios{
     grid-area: anuncios;
@@ -318,7 +337,7 @@ p{
 /*FOOTER*/
 .footer{
     grid-area: footer;
-    background: linear-gradient(135deg, #8844ee, #B07DFB);
+    background: rgba(50, 18, 80, 0.911);
 }
 
 .footer p{
