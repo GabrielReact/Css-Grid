@@ -139,13 +139,7 @@ img {
 
 }
 
-@media (max-width:760px) {
-    .citacao{
-        position: absolute;
-        left: 5px;
-        top: 1000px;
-    }
-}
+
 
 .kaisa:hover{
 background: #29004e;
