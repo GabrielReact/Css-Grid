@@ -138,7 +138,7 @@ img {
 }
 
 @media (max-width:760px) {
-    .sidenav li a{
+    .sidenav{
         width: 380px;
     }
 }
