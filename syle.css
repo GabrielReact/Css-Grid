@@ -59,6 +59,11 @@ img {
     }
 }
 
+@media (max-width: 760px) {
+    .sidenav{
+        width: 100rem;
+    }
+}
 
 /* Header*/
  
