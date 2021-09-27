@@ -225,6 +225,12 @@ p{
 
 }
 
+@media (max-width:760px) {
+    .p{
+        justify-content: center;
+    }
+}
+
 .informacoes p + p{
     margin-top: 30px;
 }
