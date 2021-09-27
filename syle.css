@@ -67,6 +67,11 @@ img {
     .header{
         width: 385px;
     }
+
+    .content{
+        padding-left: 2px;
+     
+    }
 }
 
 /* Header*/
