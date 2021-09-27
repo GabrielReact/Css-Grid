@@ -139,8 +139,7 @@ img {
 
 @media (max-width:760px) {
     .sidenav{
-        width: 380px;
-    }
+        
 }
 
 
@@ -205,7 +204,7 @@ background: #29004e;
 
 @media (max-width:760px) {
     .col-wide{
-        text-align: center;
+        text-align: justify left;
     }
 }
 
