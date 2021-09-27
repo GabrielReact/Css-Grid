@@ -175,7 +175,8 @@ background: #29004e;
         flex: 1 0 60px;
     }
     .sidenav {
-        padding: 0 10px;
+        padding: 0 20px;
+        padding-left: 0px;
     }
     .sidenav li a{
        margin: 20px 20px 20px 0;
