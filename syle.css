@@ -34,6 +34,13 @@ img {
     ;
 }
 
+@media (max-width: 760px) {
+    .estrutura{
+        grid-template-columns: minmax(190px, 1fr);
+    }
+   
+}
+
 @media (max-width: 1200px) {
   .estrutura {
       grid-template-areas: 
