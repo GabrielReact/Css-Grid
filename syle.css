@@ -195,6 +195,12 @@ background: #29004e;
 
 }
 
+@media (max-width:760px) {
+    .col-wide{
+        text-align: center;
+    }
+}
+
 .sobre{
     text-align: center;
     grid-column: 1 / -1;
@@ -228,6 +234,7 @@ p{
 @media (max-width:760px) {
     .p{
         justify-content: center;
+        margin-left: 10px;
     }
 }
 
