@@ -119,6 +119,12 @@ img {
     
 }
 
+@media (max-width:760px) {
+    *{
+        padding-left: 2px;
+    }
+}
+
 /* SIDNAV */
 .sidenav{
     grid-area: sidenav;
