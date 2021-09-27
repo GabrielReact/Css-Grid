@@ -207,7 +207,8 @@ background: #29004e;
 
 @media (max-width:760px) {
     .col-wide{
-        width: 100%;
+        grid-column: 1 / -1;
+
     }
 }
 
