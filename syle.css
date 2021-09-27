@@ -248,8 +248,7 @@ p{
 
 @media (max-width:760px) {
     .p{
-        text-align: center left;
-        padding-left: 20px;
+        flex-wrap: wrap;
         
     }
 }
