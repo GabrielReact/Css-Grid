@@ -68,11 +68,6 @@ img {
         width: 385px;
     }
 
-    .content{
-        padding-left: 2px;
-     
-    }
-}
 
 /* Header*/
  
@@ -358,7 +353,7 @@ p{
     .atributos{
         padding-left: 10px;
         margin-bottom: 30px;
-        max-height: 440px;
+        max-height: 480px;
     }
 }
 
