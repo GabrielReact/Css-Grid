@@ -140,7 +140,7 @@ img {
 }
 
 @media (max-width:760px) {
-    .p{
+    .citacao{
         position: absolute;
         left: 5px;
     }
