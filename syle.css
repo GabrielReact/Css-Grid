@@ -140,7 +140,8 @@ img {
 }
 
 @media (max-width:760px) {
-    .sidenav{
+    .p{
+        position: absolute;
         left: 5px;
     }
 }
