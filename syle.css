@@ -327,7 +327,8 @@ p{
 
 @media (max-width:760px) {
     .atributos{
-        padding-left: 10px;
+        position: absolute;
+        left: 10px;
         margin-bottom: 30px;
         max-height: 440px;
     }
