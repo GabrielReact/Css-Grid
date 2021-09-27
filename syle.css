@@ -48,12 +48,6 @@ img {
 }
 
 @media (max-width: 760px) {
-    .header li a{
-        width: max-content;
-    }
-}
-
-@media (max-width: 760px) {
     .estrutura{
         grid-template-columns: 100%;
         grid-template-areas: 
@@ -63,6 +57,72 @@ img {
         "anuncios"
         "footer"
         ;
+    }
+}
+
+@media (max-width:760px) {
+    .header{
+        grid-template-columns: auto;
+        width: 380px;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .header nav a{
+        font-size: 1em;
+    }
+    .header li +li {
+        margin-left: 10px;
+    }
+    
+}
+
+@media (max-width:760px) {
+    .sidenav{
+        width: max-content;
+        
+}
+
+@media (max-width:760px) {
+    .sidenav {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: ms;
+    }
+
+    .sidenav ul{
+        display: flex;
+    }
+    .sidenav ul li{
+        flex: 1 0 60px;
+    }
+    .sidenav {
+        padding: 0 20px;
+    }
+    .sidenav li a{
+       margin: 5px 20px 20px 0;
+    }
+}
+
+@media (max-width:760px) {
+    .col-wide{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width:760px) {
+    .p{
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width:760px) {
+    .atributos{
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        max-height: 440px;
     }
 }
 
@@ -107,22 +167,7 @@ img {
     margin-left: 30px ;
 }
 
-@media (max-width:760px) {
-    .header{
-        grid-template-columns: auto;
-        width: 380px;
-    }
-    .logo{
-        margin-bottom: 20px;
-    }
-    .header nav a{
-        font-size: 1em;
-    }
-    .header li +li {
-        margin-left: 10px;
-    }
-    
-}
+
 
 /* SIDNAV */
 .sidenav{
@@ -144,15 +189,6 @@ img {
 
 }
 
-@media (max-width:760px) {
-    .sidenav{
-        width: max-content;
-        
-}
-
-
-
-
 
 .kaisa:hover{
 background: #29004e;
@@ -166,30 +202,6 @@ background: #29004e;
     background:#060147;
 }
     
-
-
-@media (max-width:760px) {
-    .sidenav {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: ms;
-    }
-
-    .sidenav ul{
-        display: flex;
-    }
-    .sidenav ul li{
-        flex: 1 0 60px;
-    }
-    .sidenav {
-        padding: 0 20px;
-    }
-    .sidenav li a{
-       margin: 20px 20px 20px 0;
-    }
-}
-
-
 
 
 /*CONTENT */
@@ -210,11 +222,6 @@ background: #29004e;
 
 }
 
-@media (max-width:760px) {
-    .col-wide{
-        flex-wrap: wrap;
-    }
-}
 
 .sobre{
     text-align: center;
@@ -246,12 +253,6 @@ p{
 
 }
 
-@media (max-width:760px) {
-    .p{
-        flex-wrap: wrap;
-        
-    }
-}
 
 .informacoes p + p{
     margin-top: 30px;
@@ -353,13 +354,7 @@ p{
     max-height: 390px;
 }
 
-@media (max-width:760px) {
-    .atributos{
-        padding-bottom: 30px;
-        margin-bottom: 30px;
-        max-height: 440px;
-    }
-}
+
 /*ANUNCIOS*/
 .anuncios{
     grid-area: anuncios;
