@@ -141,6 +141,7 @@ img {
 
 @media (max-width:760px) {
     .sidenav{
+        width: max-content;
         
 }
 
