@@ -207,7 +207,7 @@ background: #29004e;
 
 @media (max-width:760px) {
     .col-wide{
-        grid-column: 1 / -1;
+        padding-inline-start: 0px;
 
     }
 }
