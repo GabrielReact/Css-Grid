@@ -103,7 +103,7 @@ img {
 @media (max-width:760px) {
     .header{
         grid-template-columns: auto;
-        max-width: 550px;
+        height: 300px;
     }
     .logo{
         margin-bottom: 20px;
