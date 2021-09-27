@@ -207,7 +207,7 @@ background: #29004e;
 
 @media (max-width:760px) {
     .col-wide{
-        width: max-content;
+        width: 100%;
     }
 }
 
