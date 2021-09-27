@@ -323,6 +323,14 @@ p{
     padding-left: 10px;
     max-height: 390px;
 }
+
+@media (max-width:760px) {
+    .atributos{
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        max-height: 440px;
+    }
+}
 /*ANUNCIOS*/
 .anuncios{
     grid-area: anuncios;
