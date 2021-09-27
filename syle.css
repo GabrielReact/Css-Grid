@@ -103,7 +103,7 @@ img {
 @media (max-width:760px) {
     .header{
         grid-template-columns: auto;
-        width: 400px;
+        width: 380px;
     }
     .logo{
         margin-bottom: 20px;
@@ -136,6 +136,14 @@ img {
     transition: .1s ease-out;
 
 }
+
+@media (max-width:760px) {
+    .sidenav li a{
+        width: 380px;
+    }
+}
+
+
 
 
 
