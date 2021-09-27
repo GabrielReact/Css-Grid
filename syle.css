@@ -240,8 +240,9 @@ p{
 
 @media (max-width:760px) {
     .p{
-        justify-content: center;
-        margin-left: 10px;
+        text-align: center left;
+        padding-left: 20px;
+        
     }
 }
 
