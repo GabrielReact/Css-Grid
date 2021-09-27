@@ -211,7 +211,7 @@ background: #29004e;
 
 @media (max-width:760px) {
     .col-wide{
-        text-align: justify left;
+        flex-wrap: wrap;
     }
 }
 
