@@ -61,7 +61,11 @@ img {
 
 @media (max-width: 760px) {
     .sidenav{
-        width: 400px;
+        width: 385px;
+    }
+
+    .header{
+        width: 385px;
     }
 }
 
