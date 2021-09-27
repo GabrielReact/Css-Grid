@@ -139,7 +139,11 @@ img {
 
 }
 
-
+@media (max-width:760px) {
+    .sidenav{
+        left: 5px;
+    }
+}
 
 .kaisa:hover{
 background: #29004e;
