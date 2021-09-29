@@ -34,7 +34,7 @@ img {
     ;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .estrutura {
       grid-template-areas: 
       "header header header"
@@ -46,7 +46,7 @@ img {
 
 }
 
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
     .estrutura{
         grid-template-columns: 100%;
         grid-template-areas: 
@@ -100,10 +100,10 @@ img {
     margin-left: 30px ;
 }
 
-@media (max-width:760px) {
+@media screen and (max-width:760px) {
     .header{
         grid-template-columns: auto;
-        max-width: 100%;
+        width: 110%;
     }
     .logo{
         margin-bottom: 20px;
@@ -114,7 +114,14 @@ img {
     .header li +li {
         margin-left: 10px;
     }
+  
     
+}
+
+@media screen and (max-width:760px) {
+    .footer{
+        width: 125%;
+    }
 }
 
 
@@ -154,11 +161,12 @@ background: #29004e;
     
 
 
-@media (max-width:760px) {
+@media screen and (max-width:760px) {
     .sidenav {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: ms;
+        width: 110%;
     }
 
     .sidenav ul{
@@ -328,7 +336,7 @@ p{
     max-height: 390px;
 }
 
-@media (max-width:760px) {
+@media screen and (max-width:760px) {
     .atributos{
         padding-left: 10px;
         margin-bottom: 30px;
